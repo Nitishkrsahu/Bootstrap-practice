@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="container-fluid">
+    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginForm">Login</button>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#registerForm">Register</button>
+    <div class="modal fade" id="registerForm">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Register Form</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>User Name: </dt>
+                        <dd><input type="text"></dd>
+                        <dt>Email: </dt>
+                        <dd><input type="email"></dd>
+                        <dt>Password: </dt>
+                        <dt><input type="password"></dt>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Register</button>'
+                    <button class="btn btn-warning" data-bs-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="loginForm">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Login</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>User Name: </dt>
+                        <dd><input type="text"></dd>
+                        <dt>Password: </dt>
+                        <dd><input type="password"></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Login</button>
+                    <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

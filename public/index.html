@@ -7,15 +7,31 @@
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <style>
+        li{
+            list-style: none;
+            margin-right: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        header{
+            height: 80px;
+        }
+    </style>
 </head>
-<body class="container-fluid">
-    <h2>Alert</h2>
-    <div class="alert alert-warning alert-dismissible">
-        <button class="btn-close" data-bs-dismiss="alert"></button>
-        <h2 class="alert-title">Alert</h2>
-        <p class="alert-text">You Are Deleting the record.</p>
-        <a href="#" class="alert-link">Help?</a>
-        <button data-bs-dismiss="alert">Ok</button>
-    </div>
+<body>
+    <header class="d-flex justify-content-between bg-dark align-items-center">
+        <div class="bi bi-code-slash text-white fs-4 fw-bold ps-4"><span class="ps-3">Code</span></div>
+        <nav>
+            <ul class="d-flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
